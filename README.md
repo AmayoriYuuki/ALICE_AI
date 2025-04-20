@@ -7,21 +7,21 @@
 ## ✨ Features
 
 - ✅ Modern GUI (dark theme)
-- 🗣️ Female voice responses
+- 🗣️ Female voice responses (default)
 - 🌐 Online & Offline mode with toggle command
 - 🧠 Learns from user interactions
-- 🧩 Real-time self-upgrade feature from the internet
-- 🧰 Built-in debugging & error fixer with progress bar
-- 💬 Command ALICE to switch between Online/Offline mode
-- 🔍 Learn from internet (Google CSE supported)
-- 🧠 Natural language processing via spaCy & OpenAI
-- 📦 Easy installer and uninstall option
-- 🪟 CMD or GUI mode startup
-- 📁 No internet required for basic tasks
-- 📜 Memory for short/long-term interaction (modular)
-- 🧪 Auto-detect system status (internet, errors, updates)
-- 🖼️ Custom branding support (icons, app name, etc.)
-- 📡 Speech-to-text (optional future)
+- 🔁 Real-time self-upgrade feature from the internet
+- 🧰 Built-in debugging & error fixer with animated progress bar
+- 🔌 Command ALICE to switch between Online/Offline mode
+- 🔍 Learns from internet (Google CSE integration)
+- 🧠 Natural language processing via spaCy 3.0.0 & OpenAI Chat API
+- 📦 Easy installer and uninstall option (.bat files)
+- 🪟 CMD or GUI mode startup selection
+- 📁 Works offline for basic tasks
+- 📜 Modular short-term and long-term memory
+- 🧪 Auto-detects system status (internet, errors, updates)
+- 🖼️ Custom branding support (icons, app name, shortcut)
+- 🔊 Speech-to-text support (optional future add-on)
 
 ---
 
@@ -31,59 +31,77 @@
 
 ```powershell
 git clone https://github.com/AmayoriYuuki/ALICE_AI.git
+cd ALICE_AI
+.\install.bat
+```
+
+### 👋 2. Launch ALICE
+
+```powershell
+python alice.py
+```
+
+### 📦 3. Uninstall
+```powershell
+..\uninstall.bat
+```
 
 ---
-1. powershell
 
-- Copy
-
-(Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned)
-
-🛠️ 2. Configure .env
-Create a .env file in the root folder and add:
-
-- Copy
-
+## 📄 Environment Variables (.env)
+```
 OPENAI_API_KEY=your_openai_api_key
-GOOGLE_API_KEY=your_google_api_key
 GOOGLE_CSE_ID=your_custom_search_engine_id
-ALICE_UPDATE_URL=https://yourdomain.com/ALICE/update
-
-🧪 3. Usage
-
-- Launch alice.py
+GOOGLE_API_KEY=your_google_api_key
+ALICE_UPDATE_URL=https://raw.githubusercontent.com/AmayoriYuuki/ALICE_AI/main/update.json
+```
 
 ---
 
-Choose GUI or CMD mode
-
-Talk to ALICE via text or voice
-
----
-
-Use commands like:
-
-Go Offline
-
-Go Online
-
-Check for Updates
-
-Fix Errors
-
-Learn from Internet: <topic>
+## 📑 requirements.txt (compatible)
+```
+openai==1.14.3
+python-dotenv==1.0.1
+pyttsx3==2.90
+requests==2.31.0
+spacy==3.0.0
+blis==0.7.4
+thinc==8.0.13
+pydantic==1.7.4
+wasabi==0.8.2
+numpy==1.24.4
+colorama==0.4.6
+tqdm==4.66.2
+```
 
 ---
 
-🧹 Uninstall
-Run:
+## ⚙️ install.bat
+```bat
+@echo off
+python -m venv venv
+call venv\Scripts\activate.bat
+pip install --upgrade pip
+pip install -r requirements.txt
+python -m spacy download xx_ent_wiki_sm
+echo ALICE installation complete.
+pause
+```
 
-uninstall.bat
-Or manually delete the folder.
+---
 
-📚 License
-This project is licensed under the MIT License.
+## ❌ uninstall.bat
+```bat
+@echo off
+rmdir /s /q venv
+if exist .env del .env
+if exist __pycache__ rmdir /s /q __pycache__
+echo ALICE has been uninstalled.
+pause
+```
 
-🧑‍💻 Developed by
-AmayoriYuuki
-💻 GitHub: @AmayoriYuuki
+---
+
+Let ALICE evolve, assist, and grow with you. 
+**Created by: [@AmayoriYuuki](https://github.com/AmayoriYuuki)**
+
