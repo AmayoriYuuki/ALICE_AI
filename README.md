@@ -33,3 +33,54 @@
 
 ```powershell
 git clone https://github.com/AmayoriYuuki/ALICE_AI.git
+
+If permission error with PowerShell:
+
+powershell
+Copy
+Edit
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+🛠️ 2. Configure .env
+Create a .env file in the root folder and add:
+
+env
+Copy
+Edit
+OPENAI_API_KEY=your_openai_api_key
+GOOGLE_API_KEY=your_google_api_key
+GOOGLE_CSE_ID=your_custom_search_engine_id
+ALICE_UPDATE_URL=https://yourdomain.com/ALICE/update
+🧪 Usage
+Launch alice.py
+
+Choose GUI or CMD mode
+
+Talk to ALICE via text or voice
+
+Use commands like:
+
+Go Offline
+
+Go Online
+
+Check for Updates
+
+Fix Errors
+
+Learn from Internet: <topic>
+
+🧹 Uninstall
+Run:
+
+bash
+Copy
+Edit
+uninstall.bat
+Or manually delete the folder.
+
+📚 License
+This project is licensed under the MIT License.
+
+🧑‍💻 Developed by
+AmayoriYuuki
+💻 GitHub: @AmayoriYuuki
