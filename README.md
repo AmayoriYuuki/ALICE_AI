@@ -9,6 +9,7 @@
 ---
 
 ✅ ALICE v1.6.5
+
 🌐 Internet Detection
 ALICE can now automatically detect if there is an internet connection available.
 
