@@ -36,21 +36,21 @@ She can start listening when you say her name, and respond with voice.
 **🧠 ALICE v1.6.7 – Full Features & Skills**
 
 Category	Description
-🧠 AI Type	True NLP + Offline Learning
-🎤 Voice In/Out	Microsoft Zira + Voice Command Input
-🔊 Speech-to-Text	Triggered by "Hey ALICE"
-💬 NLP	GPT-style prompt completion
-🔧 Skills System	Modular Skill Scripts
-🌐 Internet Mode	Browsing, Google Search
-📶 Offline Mode	Fully offline command set
-💾 Long-Term Memory	Persistent memory.json
-🔐 Self-Debug	Detects/fixes code or dependency errors
-💡 Smart Thinking	Pattern recognition for commands
-🧰 Hardware/Software Detection	Full system analysis
-🗂 File Access	Can read/write/modify files
-🎓 Offline Training	Fine-tune small models locally
-📦 Installer	Fancy CLI installer, colored output
-🔄 Self-Updating	Can upgrade itself (online mode only)
-🧹 Uninstall	Clean removal with Uninstall.bat
+- 🧠 AI Type	True NLP + Offline Learning
+- 🎤 Voice In/Out	Microsoft Zira + Voice Command Input
+- 🔊 Speech-to-Text	Triggered by "Hey ALICE"
+- 💬 NLP	GPT-style prompt completion
+- 🔧 Skills System	Modular Skill Scripts
+- 🌐 Internet Mode	Browsing, Google Search
+- 📶 Offline Mode	Fully offline command set
+- 💾 Long-Term Memory	Persistent memory.json
+- 🔐 Self-Debug	Detects/fixes code or dependency errors
+- 💡 Smart Thinking	Pattern recognition for commands
+- 🧰 Hardware/Software Detection	Full system analysis
+- 🗂 File Access	Can read/write/modify files
+- 🎓 Offline Training	Fine-tune small models locally
+- 📦 Installer	Fancy CLI installer, colored output
+- 🔄 Self-Updating	Can upgrade itself (online mode only)
+- 🧹 Uninstall	Clean removal with Uninstall.bat
 
 ---
