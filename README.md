@@ -1,6 +1,10 @@
 # 🤖 ALICE AI - Your Intelligent Assistant
 
-**ALICE (Advanced Learning Intelligent Conversational Entity)** is a smart, evolving, offline/online AI assistant that runs on your Windows system with a modern GUI, voice interaction, and upgrade capability.
+**ALICE (Advanced Learning Intelligent Conversational Entity)** is a smart, evolving, offline/online AI assistant that runs on your Windows system with a Interface: Command-Line (CLI), voice interaction, and upgrade capability.
+
+---
+
+🔴NOTE : Only works using PowerShell : ( Administrator: Windows PowerShell )
 
 ---
 
