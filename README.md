@@ -20,7 +20,7 @@ You can now use commands like:
 "go offline" → Switch to offline mode.
 ALICE remembers and operates accordingly.
 
-🧠 Includes All Features from v1.6.3 & v1.6.4
+---
 
 🧩 Full List – ALICE v1.6.5 Features & Skills/Abilities
 💬 Communication & Chat
@@ -76,12 +76,16 @@ Learns from user interactions offline
 
 Brain-like memory (neural link simulation)
 
+---
+
 🧪 Coding & Debugging
 Writes Python code on demand
 
 Fixes code using basic logic + tests it
 
 Suggests improvements
+
+---
 
 🛠️ Installer & Environment
 Fancy Install.bat with colors, loading bar, and error handling
