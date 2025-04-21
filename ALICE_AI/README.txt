@@ -11,7 +11,12 @@ Features:
 - "Hey ALICE" wake word input
 - Learns from chat logs (basic memory)
 
+PowerShell :
+- run as Administrator
+
 Usage:
+1. python -m venv venv
+2. venv\Scripts\Activate.ps1
 1. Run Install.bat
 2. Run with: python alice.py
 3. Type "go online" or "go offline" to switch modes
