@@ -11,7 +11,7 @@ Features:
 - "Hey ALICE" wake word input
 - Learns from chat logs (basic memory)
 
-PowerShell :
+PowerShell:
 - run as Administrator
 
 Usage:
