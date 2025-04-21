@@ -24,6 +24,7 @@ ALICE remembers and operates accordingly.
 ---
 
 🧩 Full List – ALICE v1.6.5 Features & Skills/Abilities
+
 💬 Communication & Chat
 Voice command input: Wake with “Hey ALICE”
 
@@ -32,6 +33,7 @@ Natural language understanding
 Custom replies and jokes
 
 Can learn from chat logs (Memory Training)
+
 
 🎤 Voice Output & Input
 Text-to-speech with Microsoft Zira Desktop (Female voice)
@@ -42,12 +44,14 @@ Reads responses aloud
 
 Hotword detection: “Hey ALICE”
 
+
 📶 Online / Offline Intelligence
 Works offline for local tasks and learning
 
 Online for web search, browsing, real-time data
 
 Manual toggle + automatic internet detection
+
 
 🛠️ Error Detection & Self-Fixing
 Detects missing dependencies, invalid paths
@@ -58,6 +62,7 @@ Auto-fix environment via installer
 
 Handles OpenAI or dependency-related errors
 
+
 🖥️ Hardware/Software Detection
 Can detect OS, CPU, RAM specs
 
@@ -65,10 +70,12 @@ Lists installed software (basic)
 
 Informs user about system compatibility
 
+
 🌐 Web Interaction
 Opens Chrome/Edge to search Google
 
 Can perform predefined online tasks (weather, news, etc.)
+
 
 🧠 Memory & Learning
 Saves and recalls conversation history
