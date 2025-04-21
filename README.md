@@ -4,101 +4,87 @@
 
 ---
 
-## ✨ Features
+✅ ALICE v1.6.5
+🌐 Internet Detection
+ALICE can now automatically detect if there is an internet connection available.
 
-- ✅ Modern GUI (dark theme)
-- 🗣️ Female voice responses (default)
-- 🌐 Online & Offline mode with toggle command
-- 🧠 Learns from user interactions
-- 🔁 Real-time self-upgrade feature from the internet
-- 🧰 Built-in debugging & error fixer with animated progress bar
-- 🔌 Command ALICE to switch between Online/Offline mode
-- 🔍 Learns from internet (Google CSE integration)
-- 🧠 Natural language processing via spaCy 3.0.0 & OpenAI Chat API
-- 📦 Easy installer and uninstall option (.bat files)
-- 🪟 CMD or GUI mode startup selection
-- 📁 Works offline for basic tasks
-- 📜 Modular short-term and long-term memory
-- 🧪 Auto-detects system status (internet, errors, updates)
-- 🖼️ Custom branding support (icons, app name, shortcut)
-- 🔊 Speech-to-text support (optional future add-on)
+🔁 Manual Toggle: Online / Offline Mode
+You can now use commands like:
 
----
+"go online" → Switch to online mode.
 
-## 🚀 Installation
+"go offline" → Switch to offline mode.
+ALICE remembers and operates accordingly.
 
-### 🔧 1. Clone & Setup (One-liner PowerShell)
+🧠 Includes All Features from v1.6.3 & v1.6.4
 
-```powershell
-git clone https://github.com/AmayoriYuuki/ALICE_AI.git
-cd ALICE_AI
-.\install.bat
-```
+🧩 Full List – ALICE v1.6.5 Features & Skills/Abilities
+💬 Communication & Chat
+Voice command input: Wake with “Hey ALICE”
 
-### 👋 2. Launch ALICE
+Natural language understanding
 
-```powershell
-python alice.py
-```
+Custom replies and jokes
 
-### 📦 3. Uninstall
-```powershell
-..\uninstall.bat
-```
+Can learn from chat logs (Memory Training)
 
----
+🎤 Voice Output & Input
+Text-to-speech with Microsoft Zira Desktop (Female voice)
 
-## 📄 Environment Variables (.env)
-```
-OPENAI_API_KEY=your_openai_api_key
-GOOGLE_CSE_ID=your_custom_search_engine_id
-GOOGLE_API_KEY=your_google_api_key
-ALICE_UPDATE_URL=https://raw.githubusercontent.com/AmayoriYuuki/ALICE_AI/main/update.json
-```
+Voice gender toggle: "change voice to male/female"
 
----
+Reads responses aloud
 
-## 📑 requirements.txt (compatible)
-```
-openai==1.14.3
-python-dotenv==1.0.1
-pyttsx3==2.90
-requests==2.31.0
-spacy==3.0.0
-blis==0.7.4
-thinc==8.0.13
-pydantic==1.7.4
-wasabi==0.8.2
-numpy==1.24.4
-colorama==0.4.6
-tqdm==4.66.2
-```
+Hotword detection: “Hey ALICE”
 
----
+📶 Online / Offline Intelligence
+Works offline for local tasks and learning
 
-## ⚙️ install.bat
-```bat
-@echo off
-python -m venv venv
-call venv\Scripts\activate.bat
-pip install --upgrade pip
-pip install -r requirements.txt
-python -m spacy download xx_ent_wiki_sm
-echo ALICE installation complete.
-pause
-```
+Online for web search, browsing, real-time data
 
----
+Manual toggle + automatic internet detection
 
-## ❌ uninstall.bat
-```bat
-@echo off
-rmdir /s /q venv
-if exist .env del .env
-if exist __pycache__ rmdir /s /q __pycache__
-echo ALICE has been uninstalled.
-pause
-```
+🛠️ Error Detection & Self-Fixing
+Detects missing dependencies, invalid paths
+
+Can diagnose & fix Python code
+
+Auto-fix environment via installer
+
+Handles OpenAI or dependency-related errors
+
+🖥️ Hardware/Software Detection
+Can detect OS, CPU, RAM specs
+
+Lists installed software (basic)
+
+Informs user about system compatibility
+
+🌐 Web Interaction
+Opens Chrome/Edge to search Google
+
+Can perform predefined online tasks (weather, news, etc.)
+
+🧠 Memory & Learning
+Saves and recalls conversation history
+
+Learns from user interactions offline
+
+Brain-like memory (neural link simulation)
+
+🧪 Coding & Debugging
+Writes Python code on demand
+
+Fixes code using basic logic + tests it
+
+Suggests improvements
+
+🛠️ Installer & Environment
+Fancy Install.bat with colors, loading bar, and error handling
+
+Uninstaller included
+
+All environment setup handled automatically
 
 ---
 
