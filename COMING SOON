@@ -1,8 +1,8 @@
-The New Upgrade/Update ALICE AI v1.6.7 is Coming Soon
+#The New Upgrade/Update ALICE AI v1.6.7 is Coming Soon
 
 ---
 
-✅ New ALICE v1.6.7
+**✅ New ALICE v1.6.7**
 🔹 1. True NLP Learning (like GPT)
 Integrated a small local language model using transformers from Hugging Face.
 
@@ -33,7 +33,7 @@ She can start listening when you say her name, and respond with voice.
 
 ---
 
-🧠 ALICE v1.6.7 – Full Features & Skills
+**🧠 ALICE v1.6.7 – Full Features & Skills**
 
 Category	Description
 🧠 AI Type	True NLP + Offline Learning
