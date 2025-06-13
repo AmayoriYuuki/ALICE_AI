@@ -3,6 +3,8 @@
 ---
 
 **✅ New ALICE v1.6.7**
+
+
 🔹 1. True NLP Learning (like GPT)
 Integrated a small local language model using transformers from Hugging Face.
 
